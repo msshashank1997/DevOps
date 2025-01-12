@@ -1,0 +1,21 @@
+1. Simple To-Do List API
+
+Build a Flask API to manage a simple to-do list. Each to-do item is stored as a dictionary in a list.
+
+Tasks:
+Add a new to-do item (POST /todos).
+Fetch all to-do items (GET /todos).
+Fetch a specific to-do item by its ID (GET /todos/<id>).
+Update a to-do item (PUT /todos/<id>).
+Delete a to-do item (DELETE /todos/<id>).
+
+Product Inventory API
+
+Build a Flask API to manage product inventory stored as dictionaries in a list.
+
+Tasks:
+Add a product with id, name, price, and quantity fields (POST /products).
+Fetch all products (GET /products).
+Fetch products below a certain stock level (GET /products/low-stock/<threshold>).
+Update product details (PUT /products/<id>).
+Delete a product (DELETE /products/<id>).
