@@ -4,7 +4,7 @@ from bson import ObjectId
 
 app = Flask(__name__)
 
-app.config["MONGO_URI"] = "mongodb+srv://demoteam88:3WwsOsXTmCfG1PLE@cluster0.gdzal.mongodb.net/todo"
+app.config["MONGO_URI"] = "mongodb+srv://demoteam88:888888@cluster0.gdzal.mongodb.net/todo"
 mongo = PyMongo(app)
 
 @app.route('/', methods=["GET"])
